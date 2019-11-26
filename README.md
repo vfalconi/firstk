@@ -10,5 +10,7 @@ npm install
 ## usage
 
 ```
-npm run inspect -- url=https://someurl.tld/path
+npm run inspect -- --url=https://someurl.tld/path
 ```
+
+Note: that repeated `--` is not a typo. npm requires it when passing parameters to a `run-script`.
