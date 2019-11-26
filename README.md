@@ -10,5 +10,5 @@ npm install
 ## usage
 
 ```
-node index.js url=https://someurl.tld/path
+npm run inspect -- url=https://someurl.tld/path
 ```
